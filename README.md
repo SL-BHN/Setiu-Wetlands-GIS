@@ -33,7 +33,8 @@ All layers within this GeoPackage use the official projected coordinate system f
   EPSG:3375 GDM2000 / Peninsula RSO
   **Official Reference** : https://epsg.io/3375
 
-**WARNING** Ensure your QGIS project's CRS matches when combining these layers with global basemaps (EPSG:3375 GDM2000 / Peninsula RSO).
+
+> **WARNING** : Ensure your project CRS matches when combining these layers with global basemaps (EPSG:3375 GDM2000 / Peninsula RSO).
 
 ---
 
@@ -53,5 +54,6 @@ All layers within this GeoPackage use the official projected coordinate system f
 
 ---
 
-Sulayman Bouhassoun (2026) Universiti Malaysia Terengganu, Malaysia
+**Sulayman Bouhassoun** (2026) Universiti Malaysia Terengganu, Malaysia
+
 Université Lumière Lyon 2, France
