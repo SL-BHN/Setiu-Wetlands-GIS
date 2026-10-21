@@ -11,20 +11,18 @@ This GitHub repository provides geospatial data to facilitate research and spati
 ### Included Layers
 
 1. **Mangroves**
-   * **Source:** Global Mangrove Watch (2020)
-   * **Description:** Extent and monitoring of mangrove ecosystems.
+   * **Source :** Global Mangrove Watch (2020)
+   * **Description :** Extent and monitoring of mangrove ecosystems.
 
 2. **Setiu Wetlands State Park**
-   * **Source:** Taman Negeri Setiu Wetlands (2026)
-   * **Description:** Official boundaries of the State Park.
+   * **Source :** Taman Negeri Setiu Wetlands (2026)
+   * **Description :** Official boundaries of the State Park.
 
 3. **Water Area**
-   * **Description:** Hydrological features of water in Setiu Lagoon and tributaries.
+   * **Description :** Hydrological features of water in Setiu Lagoon and tributaries.
 
 4. **Terengganu State (Costal Area)**
-   * **Description:** Coastal water zone of Terengganu State.
-
-*(Note: Your prompt mentions four layers—if there is a 4th layer in your file, be sure to add it to this list!)*
+   * **Description :** Coastal water zone of Terengganu State.
 
 ---
 
@@ -32,12 +30,11 @@ This GitHub repository provides geospatial data to facilitate research and spati
 
 All layers within this GeoPackage use the official projected coordinate system for Peninsular Malaysia:
 
-  GDM2000 / Peninsula RSO
-  EPSG:3375
+  EPSG:3375 GDM2000 / Peninsula RSO
   **Official Reference** : https://epsg.io/3375
 
-**WARNING** Ensure your QGIS project's CRS matches or that **on-the-fly CRS transformation** is enabled when combining these layers with global basemaps (such as WGS 84 / EPSG:4326 or OpenStreetMap).
-
+**WARNING** Ensure your QGIS project's CRS matches when combining these layers with global basemaps (EPSG:3375 GDM2000 / Peninsula RSO).
+<span style="color:red">**WARNING** Ensure your QGIS project's CRS matches when combining these layers with global basemaps (EPSG:3375 GDM2000 / Peninsula RSO).</span>
 ---
 
 ## Getting Started with QGIS
