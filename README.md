@@ -1,1 +1,54 @@
 # Setiu Wetlands GIS
+
+This GitHub repository provides geospatial data to facilitate research and spatial analysis in the **Setiu Wetlands** (Terengganu, Malaysia). The primary file is a GeoPackage (".gpkg") containing pre-packaged vector layers ready for direct use in GIS applications such as QGIS or ArcGIS.
+
+## 📁 Repository Contents
+
+* **"Setiu Wetlands GIS.gpkg"**: A unified GeoPackage containing all spatial layers for the study area.
+
+### Included Layers
+
+1. **Mangroves**
+   * **Source:** Global Mangrove Watch (2020)
+   * **Description:** Extent and monitoring of mangrove ecosystems.
+
+2. **Setiu Wetlands State Park**
+   * **Source:** Taman Negeri Setiu Wetlands (2026)
+   * **Description:** Official boundaries of the State Park.
+
+3. **Water Area**
+   * **Source:** Terengganu State (Coastal Area)
+   * **Description:** Hydrological features and coastal water zones.
+
+*(Note: Your prompt mentions four layers—if there is a 4th layer in your file, be sure to add it to this list!)*
+
+---
+
+## Coordinate Reference System (CRS)
+
+All layers within this GeoPackage use the official projected coordinate system for Peninsular Malaysia:
+
+* GDM2000 / Peninsula RSO
+* EPSG:3375
+* **Official Reference** : https://epsg.io/3375
+
+> ⚠️ **WARNING** Ensure your QGIS project's CRS matches or that **on-the-fly CRS transformation** is enabled when combining these layers with global basemaps (such as WGS 84 / EPSG:4326 or OpenStreetMap).
+
+---
+
+## Getting Started with QGIS
+
+1. Download the "Setiu Wetlands GIS.gpkg" file directly from this repository (or clone the repository).
+2. Open **QGIS**.
+3. Drag and drop the ".gpkg" file directly into QGIS, or connect to it via the **Data Source Manager** (`Vector` -> `GeoPackage`).
+4. Select the layers you wish to load into your project.
+
+---
+
+## Citation & Attribution
+
+* **Usage:** Provided open-access for academic, research, and conservation purposes.
+* **Citation:** If you use these dataset layers in your publications or reports, please attribute the original sources listed above alongside this repository.
+
+Sulayman Bouhassoun (2026) Universiti Malaysia Terengganu, Malaysia
+Université Lumière Lyon 2, France
