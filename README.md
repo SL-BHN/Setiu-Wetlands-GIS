@@ -33,9 +33,8 @@ All layers within this GeoPackage use the official projected coordinate system f
   EPSG:3375 GDM2000 / Peninsula RSO
   **Official Reference** : https://epsg.io/3375
 
-<span style="color:red">
 **WARNING** Ensure your QGIS project's CRS matches when combining these layers with global basemaps (EPSG:3375 GDM2000 / Peninsula RSO).
-</span>
+
 ---
 
 ## Getting Started with QGIS
