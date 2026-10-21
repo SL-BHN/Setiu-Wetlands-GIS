@@ -1,12 +1,12 @@
 # Setiu Wetlands GIS
 
-This GitHub repository provides geospatial data to facilitate research and spatial analysis in the **Setiu Wetlands** (Terengganu, Malaysia). The primary file is a GeoPackage (".gpkg") containing pre-packaged vector layers ready for direct use in GIS applications such as QGIS or ArcGIS.
+This GitHub repository provides geospatial data to facilitate research and spatial analysis in the **Setiu Wetlands** (Terengganu, Malaysia). The primary file is a GeoPackage (`.gpkg`) containing pre-packaged vector layers ready for direct use in GIS applications such as QGIS or ArcGIS.
 
 ---
 
 ## Repository Contents
 
-**"Setiu Wetlands GIS.gpkg"** : A unified GeoPackage containing all spatial layers for the study area.
+**`Setiu Wetlands GIS.gpkg`** : A unified GeoPackage containing all spatial layers for the study area.
 
 ### Included Layers
 
@@ -40,17 +40,18 @@ All layers within this GeoPackage use the official projected coordinate system f
 
 ## Getting Started with QGIS
 
-1. Download the "Setiu Wetlands GIS.gpkg" file directly from this repository (or clone the repository).
+1. Download the `Setiu Wetlands GIS.gpkg` file directly from this repository.
 2. Open **QGIS**.
-3. Drag and drop the ".gpkg" file directly into QGIS, or connect to it via the **Data Source Manager** (`Vector` -> `GeoPackage`).
+3. Drag and drop the `.gpkg` file directly into QGIS, or connect to it via the **Data Source Manager** (`Vector` -> `GeoPackage`).
 4. Select the layers you wish to load into your project.
 
 ---
 
 ## Citation & Attribution
 
-**Usage:** Provided open-access for academic, research, and conservation purposes.
-**Citation:** If you use these dataset layers in your publications or reports, please attribute the original sources listed above alongside this repository.
+**Usage** : Provided open-access for academic, research, and conservation purposes.
+
+**Citation** : If you use these dataset layers in your publications or reports, please attribute the original sources listed above alongside this repository.
 
 ---
 
